@@ -10,7 +10,6 @@ Frontend independente (React + Vite + Tailwind) que consome a API do backend. Fi
 ## Instalação
 
 ```bash
-cd frontend
 yarn
 ```
 
@@ -27,7 +26,7 @@ cp .env.example .env
 
 ## Rodar em desenvolvimento
 
-Com o backend rodando em outra aba (ex.: `yarn dev` na raiz do repo):
+Com o backend rodando em outra aba (ex.: `yarn dev`):
 
 ```bash
 yarn dev
@@ -40,7 +39,6 @@ Abre em [http://localhost:5173](http://localhost:5173). O proxy encaminha `/auth
 ```bash
 yarn build
 ```
-
 Saída em `dist/`. Para preview local:
 
 ```bash
@@ -54,4 +52,3 @@ yarn preview
 | `yarn dev`    | Sobe o dev server (Vite) |
 | `yarn build`  | Build de produção        |
 | `yarn preview`| Servir o build localmente |
-| `yarn lint`   | ESLint (se configurado)   |
